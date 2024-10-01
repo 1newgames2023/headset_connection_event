@@ -1,22 +1,28 @@
 PODS:
   - Flutter (1.0.0)
-  - headset_connection_event (2.0.0):
+  - headset_connection_event (3.1.0):
+    - Flutter
+  - permission_handler_apple (9.3.0):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - headset_connection_event (from `.symlinks/plugins/headset_connection_event/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
   headset_connection_event:
     :path: ".symlinks/plugins/headset_connection_event/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  headset_connection_event: dff00e1ba7463daf6696e764c5b0dddd7bb685b3
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  headset_connection_event: 0a3655c52ab765b7f7302c3a371497c4e64c4ce0
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: c4c93c5f6502fe2754f48404d3594bf779584011
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.15.0

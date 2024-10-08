@@ -11,6 +11,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.android.library"
     compileSdkVersion 34
 
     defaultConfig {
